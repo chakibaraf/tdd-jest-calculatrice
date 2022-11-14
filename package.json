@@ -1,0 +1,20 @@
+{
+  "name": "calculatricetdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc",
+    "start": "npm run build && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  },
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
